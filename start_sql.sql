@@ -1,0 +1,13 @@
+CREATE DATABASE api_teste;
+CREATE TABLE api_teste.books(id integer PRIMARY KEY auto_increment NOT NULL, name varchar(40) not null, author varchar(40) not null);
+INSERT INTO api_teste.books VALUES(NULL, 'My first book', 'Pedro Ivo');
+INSERT INTO api_teste.books VALUES(NULL, 'My second book', 'Pedro Ivo');
+INSERT INTO api_teste.books VALUES(NULL, 'My third book', 'Pedro Ivo');
+INSERT INTO api_teste.books VALUES(NULL, 'Stories from the past', 'Pedro Ivo');
+INSERT INTO api_teste.books VALUES(NULL, 'Somebook', 'Luis');
+INSERT INTO api_teste.books VALUES(NULL, 'Otherbook', 'Luis');
+INSERT INTO api_teste.books VALUES(NULL, 'Java Book', 'Luis');
+INSERT INTO api_teste.books VALUES(NULL, 'C Book', 'Luis');
+INSERT INTO api_teste.books VALUES(NULL, 'Python Book', 'Luis');
+INSERT INTO api_teste.books VALUES(NULL, 'PHP Book', 'Pedro Ivo');
+INSERT INTO api_teste.books VALUES(NULL, 'Some bestseller', 'Special Author');
